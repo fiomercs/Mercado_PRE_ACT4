@@ -1,0 +1,42 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+th,
+td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #27272a;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+th {
+  color: #facc15;
+  font-weight: 600;
+}
+
+td {
+  color: #d4d4d8;
+}
+
+.level {
+  display: inline-block;
+  padding: 3px 12px;
+  border-radius: 20px;
+  background: rgba(250, 204, 21, 0.1);
+  color: #facc15;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid rgba(250, 204, 21, 0.2);
+}
+
+.copyright {
+  margin-top: 36px;
+  padding-top: 18px;
+  border-top: 1px solid #27272a;
+  color: #71717a;
+  font-size: 0.85rem;
+  text-align: center;
+}

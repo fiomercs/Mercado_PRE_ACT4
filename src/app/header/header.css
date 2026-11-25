@@ -1,0 +1,35 @@
+.intro {
+  text-align: center;
+  border-bottom: 1px solid #27272a;
+  padding-bottom: 24px;
+  margin-bottom: 28px;
+}
+
+.intro h1 {
+  margin-bottom: 6px;
+  color: #facc15;
+  font-size: 2.3rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.intro p {
+  color: #a1a1aa;
+  font-size: 0.95rem;
+  overflow-wrap: anywhere;
+}
+
+.intro a {
+  color: #fbbf24;
+  text-decoration: none;
+}
+
+.intro a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .intro h1 {
+    font-size: 1.8rem;
+  }
+}
